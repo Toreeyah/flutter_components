@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_components/screens/container_screen.dart';
+import 'package:flutter_components/screens/text_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,66 +13,61 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+        title: 'Flutter Demo',
+        home :HomeScreen()
     );
   }
+
 }
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-
-
-  final String title;
-
+class HomeScreen extends StatefulWidget {
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-
-      _counter++;
-    });
-  }
-
+class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
+    return MaterialApp(
+      home : Scaffold(
+        appBar: AppBar(
+          title: Text("Home Page")
+        ),
+        body: ListView(
+          children: [
+            //we pass multiple widgets
+            ListTile(
+              title: Text("Containers"),
+              leading: Icon(Icons.title),
+              subtitle: Text("intro to containers"),
+              onTap: ()=> {
+                //print("Ooops You tapped me!!")
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder:(context) => ContainerScreen())
+                    //const Text("To the second page")
+                ),
+              },
 
-    return Scaffold(
-      appBar: AppBar(
-
-        title: Text(widget.title),
-      ),
-      body: Center(
-
-        child: Column(
-
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
+            ListTile(
+              title: Text("Text"),
+              leading: Icon(Icons.title),
+              subtitle: Text("intro to flutter text"),
+              onTap: ()=> {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder:(context) => TextScreen())
+                  //const Text("To the second page")
+                ),
+              },
+            )
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
+
+
+
+
