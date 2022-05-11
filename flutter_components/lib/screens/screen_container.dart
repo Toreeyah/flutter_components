@@ -8,7 +8,7 @@ class ScreenContainer extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title:  Text("Container"),
-        backgroundColor: Colors.yellow.shade50,
+        backgroundColor: Colors.yellow.shade500,
       ),
       body: Container(
         width: MediaQuery.of(context).size.width,

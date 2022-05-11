@@ -9,7 +9,7 @@ class ScreenRow extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title:  Text("Screen Row"),
-        backgroundColor: Colors.yellow.shade50,
+        backgroundColor: Colors.blueGrey.shade500,
       ),
       body:Row(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -17,20 +17,20 @@ class ScreenRow extends StatelessWidget {
           Container(
             padding: EdgeInsetsGeometry.infinity,
             color: Colors.green,
-            width: 10,
-            height: 10,
+            width: 40,
+            height: 40,
           ),
           Container(
             padding: EdgeInsetsGeometry.infinity,
             color: Colors.yellow,
-            width: 10,
-            height: 10,
+            width: 40,
+            height: 40,
           ),
           Container(
             padding: EdgeInsetsGeometry.infinity,
             color: Colors.red,
-            width: 10,
-            height: 10,
+            width: 40,
+            height: 40,
           )
           //Text("Media"),
           //Text("Accounting & Finance"),

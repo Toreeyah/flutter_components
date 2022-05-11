@@ -9,7 +9,7 @@ class ScreenColumn extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title:  Text("Screen Column "),
-        backgroundColor: Colors.yellow.shade50,
+        backgroundColor: Colors.blueAccent,
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -20,19 +20,19 @@ class ScreenColumn extends StatelessWidget {
       Container(
 
         color: Colors.green,
-        width: 10,
+        width: 40,
         height: 50,
       ),
       Container(
 
         color: Colors.yellow,
-        width: 10,
+        width: 40,
         height: 40,
       ),
       Container(
 
         color: Colors.red,
-        width: 10,
+        width: 40,
         height: 30,
       )
     ],
