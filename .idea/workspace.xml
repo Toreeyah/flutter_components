@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96d1acc2-b70a-47ce-a0e7-6fc6d89b01d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flutter_components/lib/screens/container_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_components/lib/screens/text_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flutter_components.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter_components.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_components/assets/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_components/assets/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_components/assets/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_components/assets/images/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_components/lib/components/widgets.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_components/lib/screens/screen_column.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_components/lib/screens/screen_container.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_components/lib/screens/screen_images.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_components/lib/screens/screen_list_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_components/lib/screens/screen_padding.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_components/lib/screens/screen_row.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flutter_components/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_components/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_components/lib/screens/container_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_components/lib/screens/container_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_components/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_components/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="27KHPqmlFsuQ8V0I4w8aY3qmZOi" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,6 +48,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
@@ -43,12 +56,22 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/flutter_components" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/flutter_components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flutter_components/lib/screens" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\2022_4\flutter_components\flutter_components\lib\screens" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\2022_4\flutter_components\flutter_components\assets\images" />
+      <recent name="D:\github\2022_4\flutter_components\flutter_components" />
+      <recent name="D:\github\2022_4\flutter_components\assets\images" />
+    </key>
   </component>
   <component name="RunManager" selected="Flutter.main.dart">
     <configuration name="main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
@@ -90,5 +113,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
