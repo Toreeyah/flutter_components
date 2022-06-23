@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_components/screens/container_screen.dart';
 import 'package:flutter_components/screens/screen_column.dart';
 import 'package:flutter_components/screens/screen_container.dart';
+import 'package:flutter_components/screens/screen_form.dart';
 import 'package:flutter_components/screens/screen_images.dart';
 import 'package:flutter_components/screens/screen_list_view.dart';
 import 'package:flutter_components/screens/screen_row.dart';
@@ -148,6 +149,20 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               },
             ),
+            ListTile(
+              title: Text("Form"),
+              dense: true,
+              leading: Icon(Icons.title),
+              subtitle: Text("Form Builder"),
+              onTap: ()=> {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder:(context) => ScreenForm())
+                  //const Text("To the second page")
+                ),
+              },
+            ),
+
           ],
         ),
       ),
